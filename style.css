@@ -1,6 +1,6 @@
 html {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     color: rgb(104, 104, 104);
 }
 .link {
@@ -8,11 +8,27 @@ html {
     color: inherit;
 }
 .img-container {
-    margin: 220px 0 0 0;
+    margin: 20px 20px 0 10px;
 }
-.form-container {
-    text-align: center;
-    margin: 2em;
+.searchbar-container {
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+#logo {
+    width: 90px;
+}
+.navbar-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.head-right {
+    position: absolute;
+    right: 20px;
+    /* top: 10px; */
+    /* min-width: 500px; */
+    /* height: 50px; */
+    /* overflow: hidden; */
+    text-align: right;
 }
 #searchbar {
     box-sizing: border-box;
